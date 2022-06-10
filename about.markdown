@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+'No Man is an Island'
+No man is an island entire of itself; every man 
+is a piece of the continent, a part of the main; 
+if a clod be washed away by the sea, Europe 
+is the less, as well as if a promontory were, as 
+well as any manner of thy friends or of thine 
+own were; any man's death diminishes me, 
+because I am involved in mankind. 
+And therefore never send to know for whom 
+the bell tolls; it tolls for thee. 
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+[MY CV]: https://drive.google.com/file/d/1r_QYKLQRVFgyzZyZnD_oA37VFoSxekQu/view?usp=sharing
