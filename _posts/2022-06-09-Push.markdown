@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "No man is an island"
+subtitle:   " \"Poetry is but life\""
+date:       2022-06-09 12:00:00
+author:     "William Shi"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - Others
+---
+'No Man is an Island'
+
+No man is an island entire of itself; every man 
+is a piece of the continent, a part of the main; 
+if a clod be washed away by the sea, Europe 
+is the less, as well as if a promontory were, as 
+well as any manner of thy friends or of thine 
+own were; any man's death diminishes me, 
+because I am involved in mankind. 
+And therefore never send to know for whom 
+the bell tolls; it tolls for thee. 
+
