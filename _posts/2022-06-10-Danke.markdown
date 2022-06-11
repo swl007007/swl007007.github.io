@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Danke:The evil of avid"
+title:      "Danke:The evil of avidity"
 subtitle:   " \"A bust of the bubble\""
 date:       2022-06-10 12:00:00
 author:     "William Shi"
