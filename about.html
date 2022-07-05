@@ -37,16 +37,11 @@ multilingual: true
 	  var dn='images.weserv.nl/?url=';
 	  return [dn,hu].join("");
 	}
-    var returntext=httpGet('https://cors-anywhere.herokuapp.com/https://www.douban.com/service/badge/rosmontis/?selection=random&amp;picsize=medium&amp;show=collection&amp;n=2&amp;hidelogo=on&amp;cat=movie%7Cbook&amp;columns=2')
+    var returntext=httpGet('https://cors.swl007007.workers.dev/?https://www.douban.com/service/badge/rosmontis/?selection=random&amp;picsize=medium&amp;show=collection&amp;n=2&amp;hidelogo=on&amp;cat=movie%7Cbook&amp;columns=2')
 	var regex = /img\d.doubanio.com/g
 	var theInstructions = returntext.replaceAll(regex,add_text);
 	eval(theInstructions)
   </script>
-</div>
-<div>
-  <h4>如无法显示需要点击下列按钮并刷新页面</h4>
-  <iframe src="https://cors-anywhere.herokuapp.com/corsdemo" width="100%" height="200" style="border:none;">
-  </iframe>
 </div>
 
 
