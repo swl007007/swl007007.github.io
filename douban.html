@@ -1,0 +1,36 @@
+---
+title: Douban
+layout: default
+description: "「书影音」"
+header-img: "img/tag-bg.jpg"
+---
+
+<!-- 
+Credits: this page shamelessly borrowed a lot from:
+https://github.com/kitian616/jekyll-TeXt-theme
+-->
+<!-- Page Header -->
+{% include intro-header.html type='page' short=true %}
+
+<!-- Main Content -->
+<div class="container">
+  <h2>光影</h2>
+  <script type="text/javascript">
+      function httpGet(theUrl)
+    {
+      var xmlHttp = new XMLHttpRequest();
+      xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+      xmlHttp.send( null );
+      return xmlHttp.responseText;
+    }
+	  function add_text(hu)
+	{
+	  var dn='images.weserv.nl/?url=';
+	  return [dn,hu].join("");
+	}
+    var returntext=httpGet('https://cors.swl007007.workers.dev/?https://www.douban.com/service/badge/rosmontis/?selection=random&amp;picsize=medium&amp;show=collection&amp;n=6&amp;hidelogo=on&amp;cat=movie%7Cbook&amp;columns=2')
+	var regex = /img\d.doubanio.com/g
+	var theInstructions = returntext.replaceAll(regex,add_text);
+	eval(theInstructions)
+  </script>
+</div>

@@ -22,29 +22,6 @@ multilingual: true
 
 <embed src="../Shi_Weilun.pdf" width="750" height="562.5" type="application/pdf">
 
-<div>
-  <h2>光影</h2>
-  <script type="text/javascript">
-      function httpGet(theUrl)
-    {
-      var xmlHttp = new XMLHttpRequest();
-      xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-      xmlHttp.send( null );
-      return xmlHttp.responseText;
-    }
-	  function add_text(hu)
-	{
-	  var dn='images.weserv.nl/?url=';
-	  return [dn,hu].join("");
-	}
-    var returntext=httpGet('https://cors.swl007007.workers.dev/?https://www.douban.com/service/badge/rosmontis/?selection=random&amp;picsize=medium&amp;show=collection&amp;n=2&amp;hidelogo=on&amp;cat=movie%7Cbook&amp;columns=2')
-	var regex = /img\d.doubanio.com/g
-	var theInstructions = returntext.replaceAll(regex,add_text);
-	eval(theInstructions)
-  </script>
-</div>
-
-
 
 
 {% if site.disqus_username %}
