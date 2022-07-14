@@ -34,25 +34,5 @@ https://github.com/kitian616/jekyll-TeXt-theme
 	eval(theInstructions)
   </script>
 </div>
-<div class="container">
-  <h2>想看</h2>
-  <script type="text/javascript">
-      function httpGet(theUrl)
-    {
-      var xmlHttp = new XMLHttpRequest();
-      xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-      xmlHttp.send( null );
-      return xmlHttp.responseText;
-    }
-	  function add_text(hu)
-	{
-	  var dn='images.weserv.nl/?url=';
-	  return [dn,hu].join("");
-	}
-    var returntext=httpGet('https://cors.swl007007.workers.dev/?https://www.douban.com/service/badge/rosmontis/?selection=random&amp;picsize=small&amp;hideself=on&amp;show=wishlist&amp;n=4&amp;hidelogo=on&amp;cat=movie%7Cbook%7Cmusic&amp;columns=2')
-	var regex = /img\d.doubanio.com/g
-	var theInstructions = returntext.replaceAll(regex,add_text);
-	eval(theInstructions)
-  </script>
-</div>
+
 
