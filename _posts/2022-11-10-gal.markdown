@@ -10,9 +10,9 @@ tags:
 ---
 
 <video width="640" controls loop>
-  <source src="https://github.com/swl007007/swl007007.github.io/blob/7faa01be6f7881598cf60fdd4d183cfd52d05714/_posts/%E7%BA%B8%E4%B8%8A%E7%9A%84%E9%AD%94%E6%B3%95%E4%BD%BF.mp4" type="video/mp4">
+  <source src="https://raw.githubusercontent.com/swl007007/swl007007.github.io/master/_posts/%E7%BA%B8%E4%B8%8A%E7%9A%84%E9%AD%94%E6%B3%95%E4%BD%BF.mp4" type="video/mp4">
   <p>Your browser doesn't support HTML5 video. Here is
-     a <a href="https://github.com/swl007007/swl007007.github.io/blob/7faa01be6f7881598cf60fdd4d183cfd52d05714/_posts/%E7%BA%B8%E4%B8%8A%E7%9A%84%E9%AD%94%E6%B3%95%E4%BD%BF.mp4">link to the video</a> instead.</p>
+     a <a href="https://raw.githubusercontent.com/swl007007/swl007007.github.io/master/_posts/%E7%BA%B8%E4%B8%8A%E7%9A%84%E9%AD%94%E6%B3%95%E4%BD%BF.mp4">link to the video</a> instead.</p>
 </video>
 
 今年干得最多的事情就是打AVG/Galgame了，这里就简单记录一下。我个人讨厌评价而喜欢评论。再差的评论也提供了一个无法代替的角度，再好的评价也不过是主观给出的数字而已，本身并无多大的意义。这里就推荐几款个人觉得非常不错的文字冒险类游戏。
