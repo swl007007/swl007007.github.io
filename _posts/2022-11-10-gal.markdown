@@ -9,6 +9,10 @@ tags:
     - Review
 ---
 
+<video src="纸上的魔法使.mp4" controls>
+  你的浏览器不支持 <code>video</code> 标签。
+</video>
+
 今年干得最多的事情就是打AVG/Galgame了，这里就简单记录一下。我个人讨厌评价而喜欢评论。再差的评论也提供了一个无法代替的角度，再好的评价也不过是主观给出的数字而已，本身并无多大的意义。这里就推荐几款个人觉得非常不错的文字冒险类游戏。
 
 # Rewrite/Rewrite Harvest festa
