@@ -78,7 +78,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "Weilun Shi，学生 <br>亚里士多德，伊拉斯谟，斯宾诺莎，莎士比亚<br> 歌德，洛克，莱布尼茨，莱辛，赫胥黎，祁克果<br>陀思妥耶夫斯基，卡夫卡，茨威格，毛姆<br>卡尔维诺，贵志佑介，田中罗密欧"
+sidebar-about-description: "Weilun Shi，学生 <br>亚里士多德，伊拉斯谟，斯宾诺莎，莎士比亚<br> 歌德，洛克，康德,赫胥黎，祁克果<br>陀思妥耶夫斯基，卡夫卡，茨威格，毛姆<br>卡尔维诺，贵志佑介，田中罗密欧"
 sidebar-avatar: https://github.com/swl007007.png # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
