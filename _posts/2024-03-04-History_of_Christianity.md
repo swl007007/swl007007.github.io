@@ -185,7 +185,9 @@ A:基督一性论（Monophysitism）和聂斯托里派（Nestorianism）确实�
 
 确实，基督一性论和聂斯托里派可以被看作是亚历山大派和安提柯派神学争论的两个极端。然而，需要注意的是，这两个“极端”观点都被基督教主流所拒绝。451年的迦克墩公会议确认了基督的两性教义，即基督同时具有完整的神性和人性，这两种性质既不混合，也不分离。
 
-Q:What is the relationship between James V, King of Scotland’s wife, Mary of Guise, and Duke Henri Guise, the one who is involved in French religious war?ChatGPTJames V of Scotland's wife, Mary of Guise, and Duke Henri of Guise, who was involved in the French Wars of Religion, were closely related. Mary of Guise was Henri's aunt. Specifically:
+Q:What is the relationship between James V, King of Scotland’s wife, Mary of Guise, and Duke Henri Guise, the one who is involved in French religious war?
+
+A:James V of Scotland's wife, Mary of Guise, and Duke Henri of Guise, who was involved in the French Wars of Religion, were closely related. Mary of Guise was Henri's aunt. Specifically:
 
 1. Mary of Guise was the daughter of Claude of Lorraine, Duke of Guise.
 
