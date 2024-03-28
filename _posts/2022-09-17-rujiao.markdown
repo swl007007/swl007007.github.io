@@ -6,7 +6,7 @@ author:     "William Shi"
 header-img: "img/919bg.jpg"
 catalog: true
 tags:
-    - Review
+    - Book
 ---
 
 

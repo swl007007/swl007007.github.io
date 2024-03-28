@@ -7,7 +7,7 @@ author:     "William Shi"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - Review
+    - Social Events
 ---
 
 上周最大的新闻无疑是多地蛋壳公寓疑似跑路，数十万租客承受随时可能被驱逐出公寓的新闻事件。很多人觉得蛋壳的商业模式与P2P小黄车无异，其实区别还是很大的。 

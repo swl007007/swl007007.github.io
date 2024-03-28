@@ -1,9 +1,9 @@
 ---
 layout:     post
 title:      "No man is an island"
-subtitle:   " \"Poetry is but life\""
+subtitle:   " \"John Donne\""
 date:       2022-06-09 12:00:00
-author:     "William Shi"
+author:     "John Donne""
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:

@@ -6,7 +6,7 @@ author:     "William Shi"
 header-img: "img/post-bg-universe.jpg"
 catalog: true
 tags:
-    - Review
+    - Book
 ---
 August 23, 2023
 
