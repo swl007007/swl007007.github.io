@@ -3,7 +3,7 @@ layout:     post
 title:      "No man is an island"
 subtitle:   " \"John Donne\""
 date:       2022-06-09 12:00:00
-author:     "John Donne""
+author:     "John Donne"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
