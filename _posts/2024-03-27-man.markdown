@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "A Human Being Should Be Able To」 by Robert A. Heinlein"
-date:       2022-11-10 12:00:00
+date:       2024-03-27 12:00:00
 author:     "Robert A. Heinlein"
 header-img: "img/post-bg-universe.jpg"
 catalog: true
