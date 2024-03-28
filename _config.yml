@@ -102,9 +102,9 @@ page-mathjax: true
 
 # Friends
 friends: [
-    #{
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # }
+    {
+         title: "Zipei Zhu",
+         href: "https://zipeizhu.github.io/"
+     }
 ]
 
