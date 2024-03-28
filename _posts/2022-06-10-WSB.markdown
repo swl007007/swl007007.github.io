@@ -7,7 +7,7 @@ author:     "William Shi"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - Translation
+    - Review
 ---
 今天看到Wallstreetbets的十条投资建议，感觉还挺有趣的。算是给自己的投资101系列开个头吧。以下目前只针对美股，也许A股有一天也会变得更加有效，谁知道呢。
 
