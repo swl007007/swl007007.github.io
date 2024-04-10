@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Only the necessary things"
+title:      "Only necessary things"
 date:       2024-03-27 12:00:00
 author:     "William Shi"
 header-img: "img/post-bg-universe.jpg"
