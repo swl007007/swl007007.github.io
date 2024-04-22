@@ -14,6 +14,38 @@ https://github.com/kitian616/jekyll-TeXt-theme
 
 <!-- Main Content -->
 <div class="container">
+  <h2>今日经文</h2>
+  <script src="https://www.biblegateway.com/votd/votd.write.callback.js"></script>
+  <script src="https://www.biblegateway.com/votd/get/?format=json&version=NIV&callback=BG.votdWriteCallback"></script>
+  <!-- alternative for no javascript -->
+  <noscript>
+  <iframe framespacing="0" frameborder="no" src="https://www.biblegateway.com/votd/get/?format=html&version=NIV">View Verse of the Day</iframe>
+  </noscript>
+  <h2>Shakespeare Quote of the Day</h2>
+  <div id="quote"></div>
+  <script>
+      // Array of quotes
+      const quotes = [
+          "All the world’s a stage, and all the men and women merely players.",
+          "To be, or not to be: that is the question.",
+          "Some are born great, some achieve greatness, and some have greatness thrust upon them.",
+          "Cowards die many times before their deaths; The valiant never taste of death but once.",
+          "The course of true love never did run smooth.",
+          "There is nothing either good or bad, but thinking makes it so.",
+          "We know what we are, but know not what we may be."
+      ];
+
+      // Function to display a quote of the day
+      function getDailyQuote() {
+          const today = new Date();
+          const index = today.getDay(); // Get the current day of the week (0-6)
+          document.getElementById("quote").innerText = quotes[index];
+      }
+
+      // Call the function when the page loads
+      window.onload = getDailyQuote;
+  </script>
+
   <h2>看过</h2>
   <h3>第一次进页面必须刷新，如果无法正常显示可以尝试刷新</h3>
   <script type="text/javascript">
