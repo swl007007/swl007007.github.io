@@ -1,0 +1,120 @@
+---
+layout:     post
+title:      "From Classical Casual Framework to AI-assisted Casual Learning"
+date:       2025-08-26 12:00:00
+author:     "William Shi"
+header-img: "img/post-bg-universe.jpg"
+catalog: true
+tags:
+    - Review
+---
+
+## TL;DR
+
+Propensity Score Matching (PSM) reduces confounding by balancing covariates; doubly-robust estimators add a second safety net by modeling both treatment and outcomes; Double/Debiased Machine Learning (DML) makes that robustness practical at scale with orthogonal scores and cross-fitting. Causal trees/forests estimate heterogeneous treatment effects (“where does it work?”), while SCM can mean either Structural Causal Models (graphs + equations for identification and counterfactuals) or the Synthetic Control Method (policy evaluation in panels). AI-assist science idea slots cleanly into a 3-phase roadmap: Assistive → Agentic → (tightly-guardrailed) Autonomous causal workflows—pairing LLMs/vision models for pattern surfacing with validated estimators and, where feasible, self-driving experiments. ([Oxford Academic][1], [arXiv][2], [PNAS][3], [Taylor & Francis Online][4], [projects.illc.uva.nl][5], [Massachusetts Institute of Technology][6])
+
+---
+
+## 1) How PSM evolved into Doubly-Robust ML (and then DML)
+
+* PSM (Propensity Score Matching). Balance treated and control units by matching on the probability of treatment given covariates; valid under unconfoundedness and overlap, but sensitive to model misspecification and high-dimensional covariates. ([Oxford Academic][1], [PMC][7])
+
+* Doubly-Robust (DR) estimators. Combine an outcome model with a propensity model; consistency holds if either model is correctly specified. This “two chances to be right” idea reduces bias from misspecification. ([McGill Math][8], [PubMed][9])
+
+* Double/Debiased ML (DML). Generalizes DR with *Neyman-orthogonal* scores and *cross-fitting* so we can plug in flexible ML (forests, boosting, deep nets) while retaining valid √n-rate inference for target causal parameters (ATE, CATE summaries, elasticities, etc.). In practice, we fit nuisance functions (propensity, outcome, instruments) via ML, then form an orthogonal score to de-bias the causal estimand. ([arXiv][2], [Oxford Academic][10])
+
+---
+
+## 2) How “SCM” relates to (and differs from) causal trees
+
+First, clarify the acronym. “SCM” is used in two ways:
+
+### 2a) Structural Causal Models (SCM, Pearl) vs. Causal Trees/Forests
+
+* SCM (structural). A formal framework: DAGs + structural equations + do-calculus for identification and counterfactual reasoning. It answers “*what needs to be controlled? what’s identifiable? what’s the causal query?*” ([projects.illc.uva.nl][5], [Wikipedia][11])
+* Causal trees/forests. Estimators that partition feature space to learn *heterogeneous* treatment effects (CATE), often with “honesty,” propensity adjustments, and orthogonalization for robustness. They answer “*for whom does it work, and by how much?*” but assume we’ve satisfied identification (e.g., no unmeasured confounding)—which SCM helps you reason about. ([PNAS][3], [Taylor & Francis Online][4])
+
+Takeaway: Use SCM (structural) to specify causal assumptions and valid adjustment sets; then estimate with tree/forest methods (possibly within DML) to uncover heterogeneity with valid inference. ([projects.illc.uva.nl][5], [Taylor & Francis Online][4])
+
+### 2b) Synthetic Control Method (also “SCM”) vs. Causal Trees/Forests
+
+* Synthetic Control (policy evaluation). Builds a weighted combination of control units to match a treated unit’s pre-treatment path in panel data; excels when treatments occur at the aggregate level with rich pre-periods. ([Massachusetts Institute of Technology][6], [Taylor & Francis Online][12])
+* Causal trees/forests. Micro-level heterogeneity estimators, typically cross-sectional or short panels, focusing on who benefits rather than constructing a *counterfactual unit*. ([PNAS][3])
+
+When to use which: Synthetic control for single- or few-unit interventions with good pre-trends; causal trees/forests for individual-level heterogeneity under unconfoundedness. See also comparisons and generalizations (GSC, IFE). ([MIT Economics][13], [PMC][14])
+
+---
+
+## 3) Toward an AI-assist science paradigm
+
+We can propose the following work flow:
+
+1. Pool covariates + outcomes from all sources.
+2. Use causal trees/forests to surface “ridges and valleys” of effect heterogeneity (spatial/temporal hotspots).
+3. Contextualize hotspots with event data (news, policy, supply shocks) to form candidate mechanisms.
+4. Human-in-the-loop hypothesis triage (prior knowledge, plausibility checks).
+5. Design/implement experiments (A/B, field trials, or quasi-experimental designs).
+6. Iterate, hard-nosing false leads; cross-check with multiple AI agents to mitigate hallucinations; keep human validation as the arbiter.
+
+This aligns with the literature moving from decision support to agentic and self-driving science—AI agents that propose hypotheses, plan experiments, and (in some domains) execute them with robotic labs, under guardrails. ([RSC Publishing][16], [American Chemical Society Publications][17], [Royal Society Publishing][18])
+
+---
+
+## 4) Evolving to a minimal-human-intervention AI-causal framework (safely)
+
+Phase I — Assistive (today).
+
+* Pattern surfacing with LLMs/vision models → DML + causal forests for effect estimation → SME review → preregistered tests. ([Oxford Academic][10], [Taylor & Francis Online][4])
+
+Phase II — Agentic (near-term).
+
+* Multi-agent LLMs propose mechanisms, map DAGs from text + data, and assemble identification strategies (adjustment sets, DiD / synthetic control when applicable). Humans approve gates; systems run registered analyses end-to-end with orthogonal scores and robust SEs. ([arXiv][19], [ACL Anthology][20])
+
+Phase III — Autonomous (domain-limited).
+
+* In lab-amenable fields, self-driving labs close the loop: hypothesis → experiment design → execution → measurement → analysis → next experiment—under tight safety, ethics, and audit trails. Inference layers remain DR/DML-style; Structural model governs identification and counterfactual queries. ([American Chemical Society Publications][17], [Royal Society Publishing][18])
+
+Guardrails that matter
+
+* Identification first: Use SCM (structural) to lock causal assumptions before any estimation. ([projects.illc.uva.nl][5])
+* DR/DML back-stops: Orthogonalization + cross-fitting to resist model drift. ([arXiv][2])
+* Multiplicity control & preregistration: Prevent agentic cherry-picking.
+* Model diversity & adjudication: Enlist diverse learners/agents; escalate disagreements to human committees.
+* Provenance & reproducibility: Signed data/analysis artifacts; auditable pipelines (crucial as LLMs can hallucinate graphs or spurious mechanisms). ([ACL Anthology][20])
+
+Thus the minimal-human-intervention AI-causal framework would follow the following workflow:
+
+* Spec DAG + estimands (ATE/ATT/CATE/ITE); prereg basic rules for confirmation.
+* Ingest & QA (temporal/spatial joins, missingness map, overlap report).
+* Discovery (fold A): causal forests/metalearners → candidate heterogeneity “ridges & valleys.”
+* LLM explainer (RAG): map hotspots to dated events/policies/literature; produce sourced hypotheses.
+* Design module: pick validation design per hotspot (RDD, DiD, SCM, IV, RCT feasibility).
+* Confirm (fold B): run chosen design(s); cluster/spatial SEs; placebo & pre‑trend tests.
+* Sensitivity suite: Γ bounds, partial R², alternative specs, learner swaps.
+* Governance: provenance ledger + checklist pass/fail; escalation if any red flag.
+* Synthesis: scope the claim (local vs global), mechanism narrative with citations, deployability risks.
+* Production handoff: monitoring plan (drift, re‑validation cadence), kill‑switch thresholds.
+
+
+
+
+[1]: https://academic.oup.com/biomet/article-abstract/70/1/41/240879?utm_source=chatgpt.com "central role of the propensity score in observational studies for ..."
+[2]: https://arxiv.org/abs/1608.00060?utm_source=chatgpt.com "Double/Debiased Machine Learning for Treatment and Causal Parameters"
+[3]: https://www.pnas.org/doi/10.1073/pnas.1510489113?utm_source=chatgpt.com "Recursive partitioning for heterogeneous causal effects"
+[4]: https://www.tandfonline.com/doi/abs/10.1080/01621459.2017.1319839?utm_source=chatgpt.com "Estimation and Inference of Heterogeneous Treatment ..."
+[5]: https://projects.illc.uva.nl/cil/uploaded_files/inlineitem/Pearl_2009_Causality.pdf?utm_source=chatgpt.com "Causality"
+[6]: https://www.mit.edu/~jhainm/Paper/ccs.pdf?utm_source=chatgpt.com "Synthetic Control Methods for Comparative Case Studies"
+[7]: https://pmc.ncbi.nlm.nih.gov/articles/PMC3144483/?utm_source=chatgpt.com "An Introduction to Propensity Score Methods for Reducing ..."
+[8]: https://www.math.mcgill.ca/dstephens/SISCR2018/Articles/bang_robins_2005.pdf?utm_source=chatgpt.com "Doubly Robust Estimation in Missing Data and Causal ..."
+[9]: https://pubmed.ncbi.nlm.nih.gov/16401269/?utm_source=chatgpt.com "Doubly robust estimation in missing data and causal ..."
+[10]: https://academic.oup.com/ectj/article/21/1/C1/5056401?utm_source=chatgpt.com "Double/debiased machine learning for treatment and ..."
+[11]: https://en.wikipedia.org/wiki/Causal_model?utm_source=chatgpt.com "Causal model"
+[12]: https://www.tandfonline.com/doi/abs/10.1198/jasa.2009.ap08746?utm_source=chatgpt.com "Synthetic Control Methods for Comparative Case Studies"
+[13]: https://economics.mit.edu/sites/default/files/publications/Comparative%20Politics%20and%20the%20Synthetic%20Control.pdf?utm_source=chatgpt.com "Comparative Politics and the Synthetic Control Method"
+[14]: https://pmc.ncbi.nlm.nih.gov/articles/PMC7080394/?utm_source=chatgpt.com "A comparison of methods for health policy evaluation with ..."
+[15]: https://chatgpt.com/share/68ade7e1-ef74-8005-8941-fd32a63c8adc "ChatGPT - Causal model relationships"
+[16]: https://pubs.rsc.org/en/content/articlehtml/2024/dd/d4dd00040d?utm_source=chatgpt.com "The future of self-driving laboratories: from human in the loop ..."
+[17]: https://pubs.acs.org/doi/10.1021/acs.chemrev.4c00055?utm_source=chatgpt.com "Self-Driving Laboratories for Chemistry and Materials Science"
+[18]: https://royalsocietypublishing.org/doi/10.1098/rsos.250646?utm_source=chatgpt.com "Autonomous 'self-driving' laboratories: a review of technology ..."
+[19]: https://arxiv.org/abs/2403.09606?utm_source=chatgpt.com "Large Language Models and Causal Inference in Collaboration: A Comprehensive Survey"
+[20]: https://aclanthology.org/2025.findings-naacl.327.pdf?utm_source=chatgpt.com "Causal Inference with Large Language Model: A Survey"
