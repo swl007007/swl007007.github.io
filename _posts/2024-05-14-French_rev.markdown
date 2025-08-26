@@ -8,115 +8,100 @@ catalog: true
 tags:
     - Book
 ---
-Q:为什么在路易十六时期的法国，北部和中部的税负要比南部高？
+# 读法国大革命：一部从地方到派系的“制度与人心”史
 
-A:路易十六时期的法国，北部和中部的税负之所以比南部高，有几个历史和社会经济的原因：
+这是一篇把零散读书笔记整合起来的长文：从旧制度的区域差异、地方身份与政经版图，写到财政危机与政治程序，再写到革命中的派系分化与社会流动的片段。最后，以一个简短的尾声把不平等的主题与更长时段的法国史勾连起来。行文尽量承上启下，让线索彼此照应。
 
-1. **税制历史沿革**：法国的税制在古代体系中形成，而这种体系在不同地区有不同的实施方式。南部地区（如奥克西塔尼和普罗旺斯）在加入法国前为独立的行政区，拥有一定的自治权，包括在征税方面的特权。因此，当这些地区并入法国后，它们保留了一些特殊的税务优惠政策。
+---
 
-2. **经济发展水平**：在18世纪，法国北部和中部地区如诺曼底、伊尔-德-法兰西、洛林等，由于工业较早发展，商业较为繁荣，因此成为重税的主要目标。相较之下，南部地区则较多保持传统的农业经济，经济规模和产出较低，相应的税收也较轻。
+## 一、旧制度的区域差异：为什么北中部税负更重？
 
-3. **人口密度与行政效率**：北部和中部地区通常人口更密集，行政管理和税收征集体系更为完善，使得税收征集更为高效和彻底。而南部地区由于人口相对较少，地形也可能更为复杂（如山地较多），征税难度较大，导致实际收税较低。
+路易十六时期，北部与中部税负普遍高于南部，不是偶然，而是结构性结果：
 
-4. **贵族地权和免税特权**：南部有更多的贵族地产，这些地产常常享有免税或减税的特权。而北部和中部的贵族及教会土地，虽然也有免税特权，但因为经济活动更加频繁，这些地区的非贵族土地和商业活动的税负相对较重。
+* 税制的历史分层：法国长期并存“选举省（pays d’élection）”与“三级会议省/邦议省（pays d’états）”。许多南方省份（如朗格多克、普罗旺斯、布列塔尼）并入法国较晚，保留了省级议会谈判税额的特权与减免，税负相对较轻；而北中部多为选举省，由王室财政官僚直接征解，更难议价。
+* 产业与可征收性：北中部商业与早期工业活跃、人口密度高，税基扎实且易征解；南部地形分散、农业比重更高，征收成本与难度更大。
+* 身份与地权特权：各地贵族、教会地产享有不同程度的免税或减税；在经济更活跃的北中部，非特权阶层与商业活动承担了更多实际税负。
 
-这些因素共同作用，导致在路易十六时期，法国北部和中部的税负普遍高于南部。
+> 小结：制度差异 + 税基差异 + 特权差异叠加，构成了“北重南轻”的税负地图。这也是革命前“不平等的旧制度”最直观的日常体验。
 
-Q:布列塔尼人是日耳曼人吗?
+---
 
-A:布列塔尼人不是日耳曼人。布列塔尼人主要居住在法国的布列塔尼半岛，他们的历史和文化背景主要源自凯尔特人，而非日耳曼人。布列塔尼地区的文化和语言，特别是布列塔尼语，属于凯尔特语族，这与日耳曼语族完全不同。
+## 二、地方与身份：布列塔尼人、布列塔尼与英格兰
 
-布列塔尼地区的凯尔特文化起源可以追溯到大约公元前五世纪的凯尔特部落移居到该地区。更具体地说，这一文化传统与大迁徙时期（约公元4至6世纪）从现今的英国迁移而来的不列颠人有关，这些人是为了逃避盎格鲁-撒克逊人（日耳曼族群）的入侵而迁移到布列塔尼的。因此，布列塔尼人的起源与日耳曼人有明显的区别。
+* 布列塔尼人并非日耳曼人。他们的语言与文化源自凯尔特传统，与日耳曼语族不同；中世纪时不列颠岛的部分凯尔特人因盎格鲁-撒克逊扩张迁入布列塔尼，留下深厚“跨海的凯尔特”印迹。
+* 布列塔尼并未被英格兰直接统治。它长期是一个独立公国，在英法之间周旋、联姻与结盟频仍；百年战争中更是双方角力的要地，但未并入英格兰。最终，布列塔尼在15世纪末并入法兰西王国。
 
-Q:“毫无疑问，波尔多是该地区的中心，也是欧洲第二繁忙的海港。这里曾在17世纪发生过两次反对国王的叛乱。”指的是不是法国宗教战争？
+> 小结：理解布列塔尼的自治传统与文化身份，有助于理解其在旧制度下的谈判力与对革命议题的特殊敏感。
 
-A:“毫无疑问，波尔多是该地区的中心，也是欧洲第二繁忙的海港。这里曾在17世纪发生过两次反对国王的叛乱。”这段话提到的17世纪的叛乱并不指的是法国宗教战争。法国宗教战争主要发生在16世纪，从1562年持续到1598年，这是一系列基于宗教分歧的冲突，主要是天主教徒与新教胡格诺派之间的对抗。
+---
 
-提到的17世纪的叛乱可能指的是法国的其他历史事件，比如路易十三和路易十四时期的那些叛乱。在路易十三的统治下，法国贵族试图反抗王权中央集权的增强，其中包括1614年和1630年左右的一系列贵族叛乱。路易十四时期，最著名的可能是1648至1653年的“农民战争”（Fronde），这是一系列旨在阻止王权中央集权的贵族和市民起义。
+## 三、大西洋港口的气质：波尔多的“反王叛乱”不等于宗教战争
 
-如果你的引用是关于波尔多地区的，那么可能是指某些特定的地方叛乱，这些叛乱可能是对王权中央集权的地方反应。但这些叛乱与法国宗教战争不是同一时间发生的。
+“波尔多是该地区的中心，也是欧洲第二繁忙的海港；17世纪曾两度反王。”这并非指16世纪的宗教战争（那是1562—1598年天主教与胡格诺派的内战）。
+波尔多在17世纪的骚动，主要与路易十三—路易十四时期的贵族与市民反中央集权相关，典型如“投石党”（Fronde，1648—1653）及波尔多当地的起义（如奥尔梅党 Ormée）。其底色是财政与权力再分配，而非单纯的宗派冲突。
 
-Q:布列塔尼被英格兰王国统治过吗
+> 小结：同样叫“叛乱”，动因不同：16世纪是宗教裂痕，17世纪是财政与权力结构调整的阵痛。
 
-A:布列塔尼并没有被英格兰王国直接统治过。布列塔尼是位于法国西北部的一个半岛地区，历史上曾经是一个独立的公国，拥有自己的语言和文化，但它并未成为英格兰的一部分。
+---
 
-然而，布列塔尼在中世纪时期与英格兰有过紧密的联系，特别是在诺曼征服后。1066年，来自诺曼底的威廉征服了英格兰，成为英格兰国王，而诺曼底与布列塔尼在地理上相邻，文化和政治上也有很多交流。布列塔尼的一些贵族家庭与诺曼及英格兰的贵族家庭有婚姻联姻，导致在一些历史时期，布列塔尼与英格兰王国之间存在政治和军事的联盟。
+## 四、财政崩塌与政治程序：1787年的显贵会议
 
-此外，在百年战争期间（1337年-1453年），布列塔尼成为英法冲突的一个重要战场。这场长期的冲突涉及英格兰与法国争夺法国王位的合法性，期间布列塔尼一度成为双方争夺的对象，但它从未正式成为英格兰的统治领土。百年战争结束后，布列塔尼最终在1488年彻底成为法国的一部分。
+财政危机把路易十六政府推向谈判桌。1787年，卡隆（Calonne）推动改革未果并去职；继任者布里埃纳（Brienne）延续改革思路，召集显贵会议寻求背书。
+震惊贵族的关键不在“程序”，在“内容”——触碰了传统特权（尤其是税收豁免），并试图以更统一与可征的方式重塑财政基础。显贵们普遍抵制根本性改革，改革止步，危机外溢，历史的齿轮指向1789年。
 
-Q:1787年11月19日的显贵会议，为什么路易十六的要求让贵族非常吃惊？
+> 小结：显贵会议是旧制度内部调适的失败；财政—特权的矛盾公开化，成为革命的加速器。
 
-A:确实，查尔斯·亚历山大·德·卡隆（Charles Alexandre de Calonne）在1787年的显贵会议之前就已经辞职了。卡隆的辞职发生在1787年4月，而1787年11月19日的显贵会议是由他的继任者，埃蒂安·夏尔·德·勒梅尼耶-布里埃（Étienne Charles de Loménie de Brienne），负责召集的。
+---
 
-勒梅尼耶-布里埃试图继续推进财政改革，特别是在失败的显贵会议之后，他试图寻求其他途径实施改革，包括通过召集新的显贵会议和后来的三级会议。这次显贵会议对路易十六的改革计划也感到震惊，主要是因为这些提议威胁到了他们的传统特权，尤其是税收免除的特权。这种情况反映了法国既得利益阶层对根本性财政改革的抵制，这些改革旨在解决日益严重的国家财政危机。
+## 五、走上首都街头的面包问题：1789年“十月事件”
 
-Q:1789年十月事件时的国民议会主席是谁
+1789年10月5—6日，以面包短缺与物价高涨为导火索的民众（尤其是巴黎妇女）从巴黎行至凡尔赛，迫使王室迁居巴黎，政治重心回到首都。
+其间的国民议会主席是让—约瑟夫·穆尼埃（Jean-Joseph Mounier）。他主张君主立宪与程序化改革，但很快对进一步的激进化感到失望并离开政坛。
+“十月事件”的政治含义，是民意与首都街头对国家权力的直接牵制，也标志着宫廷政治向公众政治的迁移。
 
-A:1789年十月事件期间，国民议会的主席是让-约瑟夫·穆尼埃（Jean-Joseph Mounier）。穆尼埃是一位法国革命的重要人物，也是国民议会的早期领导者之一。他尤其以提倡君主立宪制而闻名，并在1789年积极参与了国民议会的活动。
+---
 
-十月事件（又称为十月行军）是1789年10月5日和6日发生的一系列重大政治事件，当时成千上万的巴黎市民，尤其是女性，因为面包短缺和高昂的食品价格，向凡尔赛宫进发，要求国王路易十六和王后玛丽·安托瓦内特解决粮食危机，并要求王室迁回巴黎。这一事件强化了国民议会对政府事务的控制，并最终导致了王室从凡尔赛迁回巴黎，象征着巴黎人民对国王的直接监督和控制。
+## 六、派系与政策：忿激派 vs. 埃贝尔派（1793年夏）
 
-穆尼埃在这个动荡时期的领导显示了他在国民议会中的重要角色，尽管他后来因对法国革命的进一步激进化感到失望，并在1790年离开了法国。
+进入战争与粮荒交织的1793年，“左翼之左”的内部也并不单一：
 
-Q:“他在一七八九年上是一个很富裕的箍桶匠，识得字，能写能算。共和政府在索漠地区标卖教会产业的时候，他正好四十岁，才娶了一个有钱的木板商的女儿。” 这句话出自哪里
+* 忿激派（Enragés）：以雅克·鲁、勒克莱尔等为代表，更聚焦社会经济正义。主张严格价格上限、打击囤积与投机、强力保障平民口粮，并推动更直接的民主压力。
+* 埃贝尔派（Hébertistes）：以埃贝尔及其报纸《老爹杜歇纳》为旗帜，兼具经济急进与反基督教/去宗教化的文化议程，善于群众动员与象征政治，对扩大恐怖也更为积极。
 
-A:这句话出自法国作家雨果的名著《悲惨世界》。这段文字描述的是小说中的角色费利克斯·图瓦桑，他是小说中的一个辅助人物，其生活和经历在故事中展现了法国社会的变迁以及个人命运的起伏。这本小说通过描写各种社会阶层的生活，反映了19世纪法国的社会状况，特别是贫困、不公和追求自由的主题。
+1793年10月，忿激派多位领袖被捕，声音急速式微。之后的恐怖时期（至1794年夏）名义上更集中，但并非“埃贝尔派共治”：
+公共安全委员会（罗伯斯庇尔等）逐步主导，并在1794年3月清洗埃贝尔派要人。罗伯斯庇尔随后又在热月（7月）被推翻，恐怖告终。
 
-Q:1793年夏，雅克鲁和勒克莱尔领导的忿激派和埃贝尔领导的埃贝尔派的政治主张有什么区别?
+> 小结：极端之中有分歧，分歧之中有清洗。恐怖并不是一个“整齐划一”的政权，而是一连串权力—政策—舆论的高压与再分配。
 
-A:1793年夏，雅克鲁和勒克莱尔领导的忿激派（Enragés）与埃贝尔领导的埃贝尔派（Hébertistes）在法国大革命期间代表了不同的政治立场和策略。
+---
 
-忿激派是一个更为激进的群体，主要由较低阶层的市民和一些革命的极端分子组成。雅克鲁和勒克莱尔等人主张更严厉的经济控制和对敌对分子的无情镇压。他们特别关注于穷人的需求，强烈支持对食物和必需品的价格设定上限，以及通过革命法庭严惩那些囤积居奇、操纵市场的商人和贵族。
+## 七、社会流动的切面：教产拍卖与“富裕的箍桶匠”
 
-相比之下，埃贝尔派由埃贝尔领导，这一派别较为关注文化和政治问题。他们支持更为广泛的民主和公民权利，同时在对外政策上持更为侵略的立场。埃贝尔派倾向于通过宣传和群众动员来推动政策，例如通过他们控制的新闻出版来传播革命理念。此外，埃贝尔派也主张在革命中加强对反革命元素的打击，但与忿激派相比，他们更注重于政治和文化上的斗争。
+革命年代的国有化教产拍卖，让许多手工业者与商人进入土地市场，出现了“富裕的箍桶匠娶了木材商之女，恰逢索姆一带拍卖教产”的社会画像。
+无论这一具体段落出自哪部史著或文学文本，它指向同一事实：
 
-总体来说，两派虽然都是激进的革命派别，但忿激派更倾向于直接的经济干预和社会福利政策，而埃贝尔派则更多关注政治宣传和文化控制。这些差异反映了在革命高潮期间各派之间对如何推进革命的根本分歧。
+* 革命的财政技术（出售教产）、
+* 与市场化的机会窗口（城市手工业与贸易资本）、
+  共同造就了一轮社会阶层的再洗牌。有人跃迁，也有人因通胀、战争与征发而坠落。
 
-Q:What are the differences of Enrages and Hebertistes in France 1793 summer?
+> 小结：革命并非只在高政治层面发生；社会与市场结构里也有“革命”，且影响深远。
 
-A:During the summer of 1793 in France, the Enragés and the Hébertistes represented distinct radical factions within the broader landscape of the French Revolution, each with its own unique approaches and ideologies.
+---
 
-**Enragés:**
-- The Enragés were radical social revolutionaries who focused intensely on the needs of the lower classes and the urban poor.
-- Led by figures like Jacques Roux and Jean Varlet, they advocated for stringent economic measures such as price controls on essential goods and services to combat inflation and shortages that severely impacted the common people.
-- The Enragés were also vociferous in their demands for direct action against the perceived enemies of the revolution, including harsh penalties for hoarders and speculators.
-- Politically, they pushed for more direct democracy and were highly critical of the Revolutionary government for not doing enough to serve the poor and address economic inequality.
+## 八、尾声：从革命的“分配之争”看更长时段的不平等
 
-**Hébertistes:**
-- The Hébertistes, named after Jacques Hébert, were also extremely radical but blended their economic and social radicalism with a strong emphasis on dechristianization and cultural revolution.
-- This faction was known for its populist rhetoric through Hébert's newspaper, "Le Père Duchesne," which was influential among the Parisian sans-culottes.
-- Hébertistes favored aggressive policies, including the expansion of the Terror to accelerate revolutionary purity and to eliminate the revolution’s internal and external enemies.
-- They supported revolutionary festivals and other cultural activities as means of propagating revolutionary ideals and secular values.
+跨出革命本身，把视野拉长：托马斯·皮凯蒂用r > g（资本回报率高于经济增长率）解释长期不平等的累积。他提示我们：
 
-In essence, while both groups were radical and sought profound changes, the Enragés were more focused on economic justice and direct support for the poor, whereas the Hébertistes combined their calls for economic measures with a broader cultural and political revolution, including anticlerical campaigns and the promotion of a new revolutionary culture.
+* “平等主义的政治话语”若与“资本友好的制度设计”并存，不平等照样可能扩大（如第三共和国早期的结构）；
+* “强增长 + 广覆盖的再分配与教育投资”（二战后“辉煌三十年”）则倾向收敛不平等。
 
-Q:On October 1793, most leaders of Enrages was arrested, so the terror regime onward (last until August 1794) was basically led by Robespierre and Hebertistes
+革命的目标之一是重写制度以实现更公平；但公平既靠“宣言”，更靠财政—法制—市场的具体拼装。税制如何设计、谁能进入资产市场、价格与供给如何保障——这些在1789年关乎面包与政治，在今天仍决定着机会与不平等。
 
-A:In October 1793, the arrest of key leaders of the Enragés indeed marked a significant turning point in the French Revolution, as it effectively diminished the influence of this radical faction. Following their arrests, the revolutionary government could consolidate power further under the remaining dominant groups, which included the Montagnards and factions such as the Hébertistes. 
+---
 
-**Role of the Hébertistes:**
-- After the Enragés were sidelined, the Hébertistes, led by Jacques Hébert, continued to wield significant influence, particularly among the Parisian sans-culottes. Their radical approach and control over key publications helped them maintain a strong populist base.
-- The Hébertistes pushed for more extreme measures during the Terror, advocating for continued dechristianization, and rigorous enforcement of revolutionary laws against suspected counter-revolutionaries.
+## 结语
 
-**Role of Robespierre and the Montagnards:**
-- Maximilien Robespierre and the Montagnards, however, were the primary leaders of the government during the Reign of Terror, which lasted until Robespierre's downfall in July 1794.
-- Robespierre, although aligned with radical revolutionary policies, often found himself at odds with the Hébertistes, particularly regarding the pace and nature of political and cultural changes. He was wary of their unruly influence over the masses and their radical anticlericalism, which he believed could alienate certain segments of the population.
-- The political rivalry culminated in March 1794, when Robespierre and his allies orchestrated the arrest and execution of Hébert and several key Hébertistes. This move was part of Robespierre's efforts to stabilize the government by eliminating factions that he saw as overly destabilizing or that threatened his vision of the revolution.
-
-Thus, while the Hébertistes were influential in shaping the course of the Terror for a time, their power was eventually curtailed by Robespierre and the Montagnards, who sought a more controlled and centralized revolutionary government. The period of the Terror is often most closely associated with Robespierre’s leadership and his attempts to purge the revolution of its enemies, both real and perceived, until his own execution in 1794 marked the end of this most radical phase.
-
-Q:对皮凯蒂著作的一种视角注意到，在他看来，相对平等的典型工业化经济在许多方面类似于二战后的法国：奉行戴高乐主义，实现了“辉煌30年”的经济增长。而高度不平等的典型工业化经济则类似于1870—1914年处于“美好时代”的法兰西第三共和国。第三共和国的主导潮流在政治上是激进平等主义（限于本国的男性公民）；在意识形态上是激烈地反对传统权威，尤其是宗教权威；在经济上则高度容忍甚至极度热心于对财富的保护和强化。  为什么从皮凯蒂的《21世纪资本论》角度上来看，奉行传统左派政治经济政策的法兰西第三共和国反而是不平等的？
-
-A:托马斯·皮凯蒂在其著作《21世纪资本论》中提出了关于资本积累和分配不平等的观点。在书中，皮凯蒂通过大量历史数据分析，指出资本的回报率在长期往往超过经济增长率（r > g），这导致财富不断集中在少数人手中，从而加剧社会不平等。
-
-关于法兰西第三共和国，尽管其政治上奉行了激进平等主义，并且在意识形态上反对传统权威，但这种政策并没有有效地解决财富不平等问题。原因可以从以下几个方面来考虑：
-
-1. **资本的集中**：法兰西第三共和国时期，虽然政治上推行平等主义，但经济政策在实际操作中往往保护了资本的利益，容忍甚至鼓励财富的保护和积累。这种偏向于资本者的政策使得财富集中在少数人手中，普通工人和农民的收入增长远远落后于资本的增值速度。
-
-2. **经济政策的限制**：虽然政府在表面上奉行左派政策，比如推行劳工法律和福利计划，但这些政策的力度和范围可能不足以根本改变财富分配的结构。资本市场的自由和财富的法律保护可能限制了更广泛的再分配政策的实施。
-
-3. **社会结构和资本流动**：在第三共和国时期，社会结构和资本流动的特性可能也加剧了不平等。例如，大企业和金融资本的控制加强了对经济的主导，而普通民众的经济机会则受到限制。
-
-因此，尽管第三共和国在政治上看似奉行平等主义，但实际上其经济政策和社会结构未能有效打破资本积累导致的不平等格局。皮凯蒂的分析强调了政策在形式和实质上的区别，以及它们如何影响财富的分配和社会的结构不平等。
-
+把这些线索放在一起看，会发现一条贯穿的主轴：
+旧制度的地域—特权结构 → 财政危机的程序化应对失败 → 群众政治的兴起 → 派系间对“谁来承担代价”的不同答案 → 市场与社会结构的再洗牌。
+法国大革命不是一个口号，而是一张逐步展开、不断回卷的制度图与人心图。读它，既是读“自由、平等、博爱”，也是读税、粮、价、兵与法；既能理解1793年的巴黎，也能为我们的当下提供校准坐标。
 
