@@ -11,7 +11,7 @@ tags:
 
 ## TL;DR
 
-Propensity Score Matching (PSM) reduces confounding by balancing covariates; doubly-robust estimators add a second safety net by modeling both treatment and outcomes; Double/Debiased Machine Learning (DML) makes that robustness practical at scale with orthogonal scores and cross-fitting. Causal trees/forests estimate heterogeneous treatment effects (“where does it work?”), while SCM can mean either Structural Causal Models (graphs + equations for identification and counterfactuals) or the Synthetic Control Method (policy evaluation in panels). AI-assist science idea slots cleanly into a 3-phase roadmap: Assistive → Agentic → (tightly-guardrailed) Autonomous causal workflows—pairing LLMs/vision models for pattern surfacing with validated estimators and, where feasible, self-driving experiments. ([Oxford Academic][1], [arXiv][2], [PNAS][3], [Taylor & Francis Online][4], [projects.illc.uva.nl][5], [Massachusetts Institute of Technology][6])
+Propensity Score Matching (PSM) reduces confounding by balancing covariates; doubly-robust estimators add a second safety net by modeling both treatment and outcomes; Double/Debiased Machine Learning (DML) makes that robustness practical at scale with orthogonal scores and cross-fitting. Causal trees/forests estimate heterogeneous treatment effects (“where does it work?”), while SCM evaluate policies in panels. AI-assist science idea slots cleanly into a 3-phase roadmap: Assistive → Agentic → (tightly-guardrailed) Autonomous causal workflows—pairing LLMs/vision models for pattern surfacing with validated estimators and, where feasible, self-driving experiments. ([Oxford Academic][1], [arXiv][2], [PNAS][3], [Taylor & Francis Online][4], [projects.illc.uva.nl][5], [Massachusetts Institute of Technology][6])
 
 ---
 
@@ -27,16 +27,6 @@ Propensity Score Matching (PSM) reduces confounding by balancing covariates; dou
 
 ## 2) How “SCM” relates to (and differs from) causal trees
 
-First, clarify the acronym. “SCM” is used in two ways:
-
-### 2a) Structural Causal Models (SCM, Pearl) vs. Causal Trees/Forests
-
-* SCM (structural). A formal framework: DAGs + structural equations + do-calculus for identification and counterfactual reasoning. It answers “*what needs to be controlled? what’s identifiable? what’s the causal query?*” ([projects.illc.uva.nl][5], [Wikipedia][11])
-* Causal trees/forests. Estimators that partition feature space to learn *heterogeneous* treatment effects (CATE), often with “honesty,” propensity adjustments, and orthogonalization for robustness. They answer “*for whom does it work, and by how much?*” but assume we’ve satisfied identification (e.g., no unmeasured confounding)—which SCM helps you reason about. ([PNAS][3], [Taylor & Francis Online][4])
-
-Takeaway: Use SCM (structural) to specify causal assumptions and valid adjustment sets; then estimate with tree/forest methods (possibly within DML) to uncover heterogeneity with valid inference. ([projects.illc.uva.nl][5], [Taylor & Francis Online][4])
-
-### 2b) Synthetic Control Method (also “SCM”) vs. Causal Trees/Forests
 
 * Synthetic Control (policy evaluation). Builds a weighted combination of control units to match a treated unit’s pre-treatment path in panel data; excels when treatments occur at the aggregate level with rich pre-periods. ([Massachusetts Institute of Technology][6], [Taylor & Francis Online][12])
 * Causal trees/forests. Micro-level heterogeneity estimators, typically cross-sectional or short panels, focusing on who benefits rather than constructing a *counterfactual unit*. ([PNAS][3])
